@@ -9,7 +9,7 @@ import (
 	"unsafe"
 
 	"github.com/gen2brain/malgo"
-	"github.com/pion/mediadevices/internal/logging"
+	"github.com/lamhai1401/mediadevices/internal/logging"
 	"github.com/pion/mediadevices/pkg/driver"
 	"github.com/pion/mediadevices/pkg/io/audio"
 	"github.com/pion/mediadevices/pkg/prop"
