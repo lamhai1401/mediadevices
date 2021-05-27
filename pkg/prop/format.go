@@ -2,8 +2,9 @@ package prop
 
 import (
 	"fmt"
-	"github.com/pion/mediadevices/pkg/frame"
 	"strings"
+
+	"github.com/lamhai1401/mediadevices/pkg/frame"
 )
 
 // FrameFormatConstraint is an interface to represent frame format constraint.

@@ -1,7 +1,7 @@
 package audio
 
 import (
-	"github.com/pion/mediadevices/pkg/wave"
+	"github.com/lamhai1401/mediadevices/pkg/wave"
 )
 
 type Reader interface {

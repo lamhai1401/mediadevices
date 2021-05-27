@@ -8,10 +8,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/pion/mediadevices/pkg/driver"
-	"github.com/pion/mediadevices/pkg/frame"
-	"github.com/pion/mediadevices/pkg/io/video"
-	"github.com/pion/mediadevices/pkg/prop"
+	"github.com/lamhai1401/mediadevices/pkg/driver"
+	"github.com/lamhai1401/mediadevices/pkg/frame"
+	"github.com/lamhai1401/mediadevices/pkg/io/video"
+	"github.com/lamhai1401/mediadevices/pkg/prop"
 )
 
 func init() {

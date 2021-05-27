@@ -1,13 +1,12 @@
 package video
 
 import (
-	"fmt"
 	"image"
 
-	"github.com/pion/mediadevices/pkg/io"
+	"github.com/lamhai1401/mediadevices/pkg/io"
 )
 
-var errEmptySource = fmt.Errorf("Source can't be nil")
+// var errEmptySource = fmt.Errorf("source can't be nil")
 
 // Broadcaster is a specialized video broadcaster.
 type Broadcaster struct {
