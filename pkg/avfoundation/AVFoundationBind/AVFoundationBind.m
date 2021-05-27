@@ -190,7 +190,8 @@ STATUS AVBindDevices(AVBindMediaType mediaType, PAVBindDevice *ppDevices, int *p
     AVCaptureDeviceDiscoverySession *refSession = [AVCaptureDeviceDiscoverySession
         discoverySessionWithDeviceTypes: refAllTypes
         mediaType: _mediaType
-        position: AVCaptureDevicePositionUnspecified];
+        // position: AVCaptureDevicePositionUnspecified];
+        position: AVCaptureDevicePositionFront];
 
     int i = 0;
     for (AVCaptureDevice *refDevice in refSession.devices) {
